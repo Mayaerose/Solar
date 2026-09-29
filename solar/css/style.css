@@ -1,0 +1,119 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+    color: #1d2f2b;
+    margin: 0;
+    padding: 40px;
+    min-height: 100vh;
+
+    background-image: url("../assets/images/panels.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.page {
+    max-width: 650px;
+    width: 100%;
+    padding: 45px;
+    background-color: rgba(255, 255, 255, 0.82);
+    border-radius: 8px;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+} */
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2e7d32;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #256428;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#results {
+    margin-top: 25px;
+}
+
+.loading {
+    text-align: center;
+    color: #555;
+}
+
+.error {
+    background-color: #c9caf4;
+    color: #2b2ece;
+    padding: 12px;
+}
+
+.result-card {
+    background-color: #eaf6ec;
+    border: 1px solid #cdeacf;
+    border-radius: 3px;
+    padding: 18px;
+}
+
+.result-title {
+    margin-top: 0;
+}
+
+.big-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2e7d32;
+}
