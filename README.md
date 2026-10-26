@@ -56,6 +56,8 @@ This app doesn't need a server. The PVWatts calculator needs a free API key.
 - How to set a background image with CSS
 - How to fix a project when an API changes its address and what it accepts
 
+VIEW APP HERE: https://solar-jcji.onrender.com/
+
 ## Author
 
 Maya Rose 🌹
